@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<facturas>
+    <datosCompania>
+      <cuerpo>
+      </cuerpo>
+     <lateral>
+      </lateral>
+    </datosCompania>
+    <datosCliente name="Datos Cliente">
+    </datosCliente>
+    <datosFactura name="Datos Factura">
+    </datosFactura>
+    <baseImponible></baseImponible>
+    <totalFactura></totalFactura>
+</facturas>
+
