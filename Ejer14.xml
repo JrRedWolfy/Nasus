@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<prestamos>
+    
+    <bibliotecario>
+      <nombreB>Noah</nombreB>
+      <apellidosB>Alexander el Pequeño</apellidosB>
+    </bibliotecario>
+    
+    <fechaprestamo>12-12-2020</fechaprestamo>
+    <fechadevolucion>28-12-2020</fechadevolucion>
+    
+    <lector>
+      
+      <id>6355377A</id>
+      <nombreL>Asejack</nombreL>
+      <apellidosL>Zoldyck Rouf</apellidosL>
+      <telefono>66616240</telefono>
+      <direccion>
+        <tipo>Calle</tipo>
+        <nombreCalle>Montaña Kuluta</nombreCalle>
+        <numero>0</numero>
+        <piso>1</piso>
+        <letra>X</letra>
+        <codigoPostal>44572</codigoPostal>
+        <localidad>Kioshiro</localidad>
+        <provincia>El Pais de las Maravillas</provincia>
+        
+      </direccion>
+      
+    </lector>
+    
+    <libros max="3">
+      <registro>01</registro>
+      <titulo>El libro de Alumeo</titulo>
+      <autores>
+        <autor>Alumeo</autor>
+      </autores>
+    </libros>
+    
+    
+    <identificador type="numero">777</identificador>
+    
+</prestamos>

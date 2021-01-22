@@ -1,17 +1,64 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
 <facturas>
+    
     <datosCompania>
+      
       <cuerpo>
+        
+        <empresa></empresa>
+        <calle></calle>
+        <localidad></localidad>
+        <cif></cif>
+        <telefono></telefono>
+        <fax></fax>
+        
       </cuerpo>
-     <lateral>
+      
+      <lateral>
+        
+        <fecha></fecha>
+        <nPedido></nPedido>
+        <formaPago></formaPago>
+        
       </lateral>
+      
     </datosCompania>
+    
     <datosCliente name="Datos Cliente">
+      
+      <nCliente></nCliente>
+      <nombreCliente></nombreCliente>
+      <DireccionEnvio></DireccionEnvio>
+      <poblacion></poblacion>
+      <codigoPostal></codigoPostal>
+      <provincia></provincia>
+      
     </datosCliente>
+    
     <datosFactura name="Datos Factura">
+      
+      <nRef>
+        
+        <ref></ref>
+        <descripcion></descripcion>
+        <cantidad></cantidad>
+        <precio moneda="eu"></precio>
+        <IVA cualidad="%"></IVA>
+        <Importe moneda="eu"></Importe>
+        
+      </nRef>
+      
     </datosFactura>
-    <baseImponible></baseImponible>
-    <totalFactura></totalFactura>
+    
+    <baseImponible>
+      
+      <IVAs cualidad="%"></IVAs>
+      <cuotaIVA cualidad="%"></cuotaIVA>
+      
+    </baseImponible>
+    
+    <totalFactura moneda="eu"></totalFactura>
+    
 </facturas>
 
